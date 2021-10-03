@@ -1,0 +1,106 @@
+# INSTRUCCIONES
+
+## CÓMO DESCARGAR E INSTALAR MING32 PARA C/C++
+
+### Obtenga la última versión de MinGW32 2020
+```
+https://github.com/diaz0309/Release/blob/master/MinGW/x86/MinGW32.7z
+```
+
+### Obtenga la última versión de 7z-zip
+```
+https://7zip-es.updatestar.com/
+```
+
+### En la barra de búsqueda de Windows, Escriba
+```
+ejecutar
+```
+### Escriba para abrir Propiedades del sistema
+```
+sysdm.cpl
+```
+
+**Seleccione menuitem en 'Opciones avanzadas'**
+
+**Seleccione el boton en 'variables de entorno'**
+
+**Elija la Path variable y luego seleccione Editar**
+
+**Seleccione Nuevo y agregue la ruta de la carpeta de destino MinGW32 a la ruta del sistema**
+
+### Añadir esto a la ruta:
+```
+C:\MinGW32\bin
+```
+
+**Seleccione Aceptar para guardar la RUTA actualizada.**
+
+**Para comprobar que sus herramientas MinGW32 estén instaladas y disponibles correctamente**
+### Abre un cmd y escriba:
+```
+g++ --version
+```
+```
+gdb --version
+```
+
+### Crear Hello World - Abre el cmd de windows
+```
+dir
+```
+```
+cd Desktop && mkdir Projects-VisualCode && cd Projects-VisualCode && mkdir helloworld && cd helloworld
+```
+```
+copy con Test.cpp
+```
+
+#### Test.cpp
+
+```
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << "Hola mundo!" << endl;
+	
+	cout << "Pulse una tecla para continuar..." << endl;
+	cin.get();
+
+    	return 0;
+}
+```
+
+**Para la edición del archivo Test.cpp pulsando esto y después Enter.**
+Ctrl + Z
+
+### Mostrar archivo Test.cpp
+```
+type Test.cpp
+```
+
+### Editar y Guardar archivo Test.cpp
+```
+notepad Test.cpp
+```
+
+### Compilar con g++ de Lenguaje de Programación C++
+```
+g++ Test.cpp -o Test
+```
+```
+Test
+```
+
+**Ha finalizado Correctamente**
+
+
+**C++**
+**Copyright (C) 2020 Free Software Foundation, Inc.**
+**This is free software; see the source for copying conditions.  There is NO**
+**warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.**
+
+
