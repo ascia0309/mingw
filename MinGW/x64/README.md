@@ -67,7 +67,7 @@ int main()
 {
 	cout << "Hola mundo!" << endl;
 	
-	cout << "Pulse una tecla para continuar..." << endl;
+	cout << "Pulse una tecla Enter para Salir..." << endl << endl;
 	cin.get();
 
     	return 0;
