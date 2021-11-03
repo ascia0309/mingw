@@ -41,17 +41,13 @@ C:\MinGW32\bin
 ```
 g++ --version
 ```
+
+### Crear la carpeta "Hello World"
 ```
-gdb --version
+dir && cd Desktop && mkdir ProjectsC++ && cd ProjectsC++ && mkdir helloworld && cd helloworld
 ```
 
-### Crear Hello World - Abre el cmd de windows
-```
-dir
-```
-```
-cd Desktop && mkdir Projects-VisualCode && cd Projects-VisualCode && mkdir helloworld && cd helloworld
-```
+### Crear el archivo "Test.cpp"
 ```
 notepad Test.cpp
 ```
@@ -98,5 +94,3 @@ Test
 **Copyright (C) 2020 Free Software Foundation, Inc.**
 **This is free software; see the source for copying conditions.  There is NO**
 **warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.**
-
-
