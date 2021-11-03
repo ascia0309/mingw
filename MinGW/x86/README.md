@@ -53,7 +53,7 @@ dir
 cd Desktop && mkdir Projects-VisualCode && cd Projects-VisualCode && mkdir helloworld && cd helloworld
 ```
 ```
-copy con Test.cpp
+notepad Test.cpp
 ```
 
 #### Test.cpp
@@ -67,15 +67,11 @@ int main()
 {
 	cout << "Hola mundo!" << endl;
 	
-	cout << "Pulse una tecla para continuar..." << endl;
-	cin.get();
+	system("pause");
 
     	return 0;
 }
 ```
-
-**Para la edición del archivo Test.cpp pulsando esto y después Enter.**
-Ctrl + Z
 
 ### Mostrar archivo Test.cpp
 ```
