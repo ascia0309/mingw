@@ -29,7 +29,7 @@ sysdm.cpl
 
 **Seleccione Nuevo y agregue la ruta de la carpeta de destino MinGW64 a la ruta del sistema**
 
-### Añadir esto a la ruta:
+### Añadir de la ruta:
 ```
 C:\MinGW64\bin
 ```
