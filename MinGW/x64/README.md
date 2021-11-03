@@ -4,7 +4,7 @@
 
 ### Obtenga la última versión de MinGW64 2020
 ```
-https://github.com/diaz0309/Release/blob/master/MinGW/x64/MinGW64.7z
+https://github.com/diaz0309/Release/blob/master/MinGW/x86/MinGW64.7z
 ```
 
 ### Obtenga la última versión de 7z-zip
@@ -27,7 +27,7 @@ sysdm.cpl
 
 **Elija la Path variable y luego seleccione Editar**
 
-**Seleccione Nuevo y agregue la ruta de la carpeta de destino MinGW64 a la ruta del sistema**
+**Seleccione Nuevo y agregue la ruta de la carpeta de destino MinGW32 a la ruta del sistema**
 
 ### Añadir de la ruta:
 ```
@@ -36,19 +36,18 @@ C:\MinGW64\bin
 
 **Seleccione Aceptar para guardar la RUTA actualizada.**
 
-**Para comprobar que sus herramientas MinGW64 estén instaladas y disponibles correctamente**
+**Para comprobar que sus herramientas MinGW32 estén instaladas y disponibles correctamente**
 ### Abre un cmd y escriba:
 ```
 g++ --version
 ```
 
-### Crear Hello World - Abre el cmd de windows
+### Crear la carpeta "Hello World"
 ```
-dir
+dir && cd Desktop && mkdir ProjectsC++ && cd ProjectsC++ && mkdir helloworld && cd helloworld
 ```
-```
-cd Desktop && mkdir Projects-VisualCode && cd Projects-VisualCode && mkdir helloworld && cd helloworld
-```
+
+### Crear el archivo "Test.cpp"
 ```
 notepad Test.cpp
 ```
@@ -95,5 +94,3 @@ Test
 **Copyright (C) 2020 Free Software Foundation, Inc.**
 **This is free software; see the source for copying conditions.  There is NO**
 **warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.**
-
-
