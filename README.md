@@ -11,6 +11,8 @@ Free Software
 
 [download mingw64](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x64/MinGW64.7z?download=)
 
+[download mingw32](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x86/MinGW32.7z?download=)
+
 ### Obtenga la última versión de 7z-zip
 ```
 https://7zip-es.updatestar.com/
