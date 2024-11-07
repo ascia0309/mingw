@@ -1,90 +1,89 @@
-# mingw
-### Free Software
+# Release
+Free Software
 
 **MINGW x86 x64**
 
-_Latest Update 2020_
+# INSTRUCCIONES
 
-## Instructions
+## CÓMO DESCARGAR E INSTALAR MING64 PARA C/C++
 
-### How to Download and Install MinGW for C/C++
+### Obtenga la última versión de MinGW64 2020
 
-#### Get the latest version of 7z-zip[download mingw64](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x64/MinGW64.7z?download=)
-```
+[download mingw64](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x64/MinGW64.7z?download=)
 
-#### Get the latest version of 7z-zip
+### Obtenga la última versión de 7z-zip
 ```
 https://7zip-es.updatestar.com/
 ```
 
-#### In the Windows search bar, type
+### En la barra de búsqueda de Windows, Escriba
 ```
-run
+ejecutar
 ```
-#### Type to open System Properties
+### Escriba para abrir Propiedades del sistema
 ```
 sysdm.cpl
 ```
 
-**Select the 'Advanced' tab**
+**Seleccione menuitem en 'Opciones avanzadas'**
 
-**Click the 'Environment Variables' button**
+**Seleccione el boton en 'variables de entorno'**
 
-**Choose the Path variable and then select Edit**
+**Elija la Path variable y luego seleccione Editar**
 
-**Select New and add the path to the MinGW64 destination folder to the system path**
+**Seleccione Nuevo y agregue la ruta de la carpeta de destino MinGW32 a la ruta del sistema**
 
-#### Add the path:
+### Añadir de la ruta:
 ```
 C:\MinGW64\bin
 ```
 
-**Click OK to save the updated PATH.**
+**Seleccione Aceptar para guardar la RUTA actualizada.**
 
-**To verify that your MinGW64 tools are installed and available correctly**
-#### Open a cmd and type:
+**Para comprobar que sus herramientas MinGW32 estén instaladas y disponibles correctamente**
+### Abre un cmd y escriba:
 ```
 g++ --version
 ```
 
-#### Create the "Hello World" folder
+### Crear la carpeta "Hello World"
 ```
 dir && cd Desktop && mkdir ProjectsC++ && cd ProjectsC++ && mkdir helloworld && cd helloworld
 ```
 
-#### Create the "Test.cpp" file
+### Crear el archivo "Test.cpp"
 ```
 notepad Test.cpp
 ```
 
 #### Test.cpp
 
-```cpp
+```
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello, world!" << endl;
+	cout << "Hola mundo!" << endl;
+	
+	system("pause");
 
-    system("pause");
-
-    return 0;
+    	return 0;
 }
 ```
 
-#### Display the Test.cpp file
+### Mostrar archivo Test.cpp
 ```
 type Test.cpp
 ```
 
-#### Edit and Save the Test.cpp file
+### Editar y Guardar archivo Test.cpp
 ```
 notepad Test.cpp
 ```
 
-#### Compile with g++ for C++ Programming Language
+### Compilar con g++ de Lenguaje de Programación C++
 ```
 g++ Test.cpp -o Test
 ```
@@ -92,10 +91,10 @@ g++ Test.cpp -o Test
 Test
 ```
 
-**You have successfully completed**
+**Ha finalizado Correctamente**
+
 
 **C++**
 **Copyright (C) 2020 Free Software Foundation, Inc.**
-**This is free software; see the source for copying conditions. There is NO**
+**This is free software; see the source for copying conditions.  There is NO**
 **warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.**
-
