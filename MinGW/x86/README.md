@@ -4,7 +4,7 @@
 
 ### Obtenga la última versión de MinGW32 2020
 ```
-#### Get the latest version of 7z-zip[download mingw64](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x86/MinGW64.7z?download=)
+#### Get the latest version of 7z-zip[download mingw86](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x86/MinGW64.7z?download=)
 
 ```
 
